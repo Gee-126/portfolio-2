@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.logo{
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li{
+    margin-left: 20px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(248, 81, 81, 0.637);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    background-color: rgba(52, 52, 243, 0.842);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+section {
+    min-height: 100vh;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#home {
+    background-color: #e6e4e480;
+    padding: 40px;
+}
+#about {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+#projects {
+    background-color: #e6e4e480;
+    padding: 40px;
+}
+#contact {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
